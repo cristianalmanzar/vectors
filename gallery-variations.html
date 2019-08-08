@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Main Navigation-->
+    <header>
+
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+            <div class="container">
+
+                <!-- Brand -->
+                <a class="navbar-brand waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+                    <strong class="blue-text">Vectors</strong>
+                </a>
+
+                <!-- Collapse -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <!-- Left -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link waves-effect" href="#">Inicio
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                      
+                    </ul>
+
+         
+
+                </div>
+
+            </div>
+        </nav>
+        <!-- Navbar -->
+
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="mt-5 pt-5">
+        <div class="container">
+               
+            <div class="row">
+                <button type="button" class="btn btn-outline-primary waves-effect">Ordenar</button>
+                <button type="button" id="evaluate" class="btn btn-outline-primary waves-effect">Evaluar</button>
+            </div>
+             <h4 class="badge badge-primary">1er Vector</h4>
+            <div class="row">
+                    <!--Grid column-->
+                    <div class=" col-sm-4 col-md-4 ">
+        
+                        <div class="md-form">
+                            <input type="number" required name="vector1[]" class="form-control">
+                            <label for="form1" class="">Inserte el valor de X</label>
+                        </div>
+        
+                    </div>
+                    <!--Grid column-->
+        
+                    <!--Grid column-->
+                    <div class="col-md-4 ">
+        
+                        <div class="md-form form-sm">
+                            <input type="number" required name="vector1[]" class="form-control form-control-sm">
+                            <label for="form2" class="">Inserte el valor de Y</label>
+                        </div>
+        
+                    </div>
+                    <!--Grid column-->
+        
+                    <!--Grid column-->
+                    <div class="  col-sm-4 col-md-4">
+        
+                        <div class="md-form">
+                            <input  type="number" required name="vector1[]" class="form-control">
+                            <label for="form5" class="active">Inserte el valor de Z</label>
+                        </div>
+        
+                    </div>
+                    <!--Grid column-->
+        
+            </div>
+            <h4 class="badge badge-primary">2do Vector</h4>
+            <div class="row">
+                    <!--Grid column-->
+                    <div class=" col-sm-4 col-md-4 ">
+        
+                        <div class="md-form">
+                            <input type="number" required name="vector2[]" class="form-control">
+                            <label for="form1" class="">Inserte el valor de X</label>
+                        </div>
+        
+                    </div>
+                    <!--Grid column-->
+        
+                    <!--Grid column-->
+                    <div class="col-md-4 ">
+        
+                        <div class="md-form form-sm">
+                            <input type="number" required name="vector2[]" class="form-control form-control-sm">
+                            <label for="form2" class="">Inserte el valor de Y</label>
+                        </div>
+        
+                    </div>
+                    <!--Grid column-->
+        
+                    <!--Grid column-->
+                    <div class="  col-sm-4 col-md-4">
+        
+                        <div class="md-form">
+                            <input  type="number" required name="vector2[]" class="form-control">
+                            <label for="form5" class="active">Inserte el valor de Z</label>
+                        </div>
+        
+                    </div>
+                    <!--Grid column-->
+        
+            </div>
+            <h4 class="badge badge-primary">3er Vector</h4>
+            <div class="row">
+                    <!--Grid column-->
+                    <div class=" col-sm-4 col-md-4 ">
+        
+                        <div class="md-form">
+                            <input type="number" required name="vector3[]" class="form-control">
+                            <label for="form1" class="">Inserte el valor de X</label>
+                        </div>
+        
+                    </div>
+                    <!--Grid column-->
+        
+                    <!--Grid column-->
+                    <div class="col-md-4 ">
+        
+                        <div class="md-form form-sm">
+                            <input type="number" required name="vector3[]" class="form-control form-control-sm">
+                            <label for="form2" class="">Inserte el valor de Y</label>
+                        </div>
+        
+                    </div>
+                    <!--Grid column-->
+        
+                    <!--Grid column-->
+                    <div class="  col-sm-4 col-md-4">
+        
+                        <div class="md-form">
+                            <input  type="number" required name="vector3[]" class="form-control">
+                            <label for="form5" class="active">Inserte el valor de Z</label>
+                        </div>
+        
+                    </div>
+                    <!--Grid column-->
+        
+            </div>
+            <h4 class="badge badge-primary">4to Vector</h4>
+            <div class="row">
+                    <!--Grid column-->
+                    <div class=" col-sm-4 col-md-4 ">
+        
+                        <div class="md-form">
+                            <input type="number" required name="vector4[]" class="form-control">
+                            <label for="form1" class="">Inserte el valor de X</label>
+                        </div>
+        
+                    </div>
+                    <!--Grid column-->
+        
+                    <!--Grid column-->
+                    <div class="col-md-4 ">
+        
+                        <div class="md-form form-sm">
+                            <input type="number" required name="vector4[]" class="form-control form-control-sm">
+                            <label for="form2" class="">Inserte el valor de Y</label>
+                        </div>
+        
+                    </div>
+                    <!--Grid column-->
+        
+                    <!--Grid column-->
+                    <div class="  col-sm-4 col-md-4">
+        
+                        <div class="md-form">
+                            <input  type="number" required name="vector4[]" class="form-control">
+                            <label for="form5" class="active">Inserte el valor de Z</label>
+                        </div>
+        
+                    </div>
+                    <!--Grid column-->
+        
+            </div>
+            <div class="md-form">
+                <i class="fas fa-pencil-alt prefix"></i>
+                <textarea id="form10" class="md-textarea form-control" readonly rows="3"></textarea>
+                <label for="form10">Resultado</label>
+            </div>
+        </div>
+    </main>
+    <!--Main layout-->
+
+
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Initializations -->
+    <script type="text/javascript">
+        // Animations initialization
+        new WOW().init();
+
+        $('#evaluate').click(function(){
+            var vector1 = 0;
+            var vector2 = 0;
+            var vector3 = 0;
+            var vector4 = 0;
+
+            $("[name='vector1[]']").each(function(){
+                vector1 += Number($(this).val());
+            });
+
+            $("[name='vector2[]']").each(function(){
+                vector2 += Number($(this).val());
+            });
+
+            $("[name='vector3[]']").each(function(){
+                vector3 += Number($(this).val());
+            });
+
+            $("[name='vector4[]']").each(function(){
+                vector4 += Number($(this).val());
+            });
+
+        });
+
+        function isEqual(vector1,vector2,vector3) {
+            sum = vector1 + vector2;
+            if(sum == vector3){
+                return "La suma de los dos primeros vectores equivale al tercer vector"
+            }
+
+            return "La suma de los dos primeros vectores 'NO' equivale al tercer vector"
+        }
+
+        function scalarProduct() {
+            var vector1= [];
+            var vector2 = [];
+            var vector3 = [];
+
+            for (var i = 0; i < $("[name='vector1[]']").length; i++) {
+                 vector1[i] = $("[name='vector1[]']")[i].value;
+                 vector2[i] = $("[name='vector1[]']")[i].value;
+                 vector3[i] = $("[name='vector3[]']")[i].value;
+            }
+
+            for (var i = 0; i < $("[name='vector1[]']").length; i++) {
+                scalarP1 = 1 + (vector1[i] * vector2[i])
+                scalarP2 = 1 + (vector2[i] * vector3[i])
+            }
+
+            if(scalarP1 == scalarP2){
+                return "El producto escalar del vector 1 y 2 es igual al producto escalar del vector 2 y 3";
+            }
+
+            return "El producto escalar del vector 1 y 2  'NO' es igual al producto escalar del vector 2 y 3";
+        }
+
+        function greater100(){
+            var vector1= [];
+            var vector2 = [];
+            var vector3 = [];
+
+            for (var i = 0; i < $("[name='vector1[]']").length; i++) {
+                 vector1[i] = $("[name='vector1[]']")[i].value;
+                 vector2[i] = $("[name='vector1[]']")[i].value;
+                 vector3[i] = $("[name='vector3[]']")[i].value;
+            }
+
+            for (var i = 0; i < $("[name='vector1[]']").length; i++) {
+                result =  (vector1[i] + vector2[i] + vector3[i]);
+            }
+
+
+            if(result >= 100){
+                return "La suma de los tres vectores es mayor o igual a 100";
+            }
+
+            return  "La suma de los tres vectores es menor de 100" + result;
+
+
+        }
+            
+            
+
+    </script>
+</body>
+
+</html>
